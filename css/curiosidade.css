@@ -1,0 +1,16 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+    background-color:#DFE7F7;
+    color:black;
+    padding:20px;
+}
+
+#card1 {
+    padding: 30px;
+    background-color: purple;
+}
