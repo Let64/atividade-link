@@ -7,10 +7,124 @@
 body {
     background-color:#DFE7F7;
     color:black;
-    padding:20px;
 }
 
 #card1 {
     padding: 30px;
-    background-color: purple;
+    background-color:#95C0DE;
+    height: 150px;
+}
+
+#header-princ1 {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap:16px;
+    width: 100%;
+    padding-right: 40px;
+    margin-top: 40px;
+}
+#menu3 a{
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+#header-princ1 img {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+}
+
+#series {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#curiosidade {
+    background-color: rgb(162, 213, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    padding: 50px;
+}
+
+#curiosidade img {
+    width: 350px;
+    height: auto;
+    
+}
+
+footer {
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    padding: 30px;
+    padding-top: 0px;
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#texto3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+#frase3 {
+    display: flex;
+    background-color: white;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#descricao {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+    text-align: right;
+}
+
+#introbotao5 {
+    display: flex;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+}
+
+.botao5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items:flex-start;
+    background-color: cadetblue;
+    height: 40px;
+    width: 200px;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
 }

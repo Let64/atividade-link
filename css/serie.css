@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:#DFE7F7;
+    background-color:#cfdbf2;
     color:black;
     
 }
@@ -75,11 +75,66 @@ header {
     margin-top: 40px;
 }
 
+#menu1 a {
+    background-color: rgb(161, 234, 241);
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
 #container2 {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
+    padding-right: 30px;
+    background-color: lightblue;
+    height: 100px;
+}
+#quadrado2 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 20px;
+    background-color: #95C0DE;
+}
+
+#quadrado3 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    padding: 30px;
+    background-color: lightgreen;
+    padding-top: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#introbotao4 {
+    display: flex;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+}
+
+.botao4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items:flex-start;
+    background-color: cadetblue;
+    height: 40px;
+    width: 200px;
+    border-radius: 12px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 10px;
 }
