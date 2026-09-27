@@ -54,28 +54,12 @@ body {
     font-size: 20px;
 }
 
-#curiosidade {
-    background-color: rgb(162, 213, 238);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 600px;
-    padding: 50px;
-}
-
-#curiosidade img {
-    width: 350px;
-    height: auto;
-    
-}
-
 footer {
-    background-color: aqua;
-    height: 100px;
+    background-color: rgb(143, 225, 248);
+    height: 90px;
     display: flex;
     align-items: flex-start;
     padding: 30px;
-    padding-top: 0px;
     padding-left: 20px;
     justify-content: space-between;
     align-items: center;
@@ -113,6 +97,7 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
     gap: 10px;
+    
 }
 
 .botao5 {
@@ -127,4 +112,52 @@ footer {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
+}
+
+#hero4 {
+    display: flex;
+    background-color: rgb(127, 214, 255);
+    margin: 20px;
+    
+}
+
+#img-hero4 img {
+    width: 500px;   
+    padding: 20px;
+}
+
+#cards3 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.card3 {
+    display: flex;
+    padding: 30px;
+    font-size: 15px;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 26px;
+}
+
+.card3 p {
+    padding: 15px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+    font-weight: 500;
 }
