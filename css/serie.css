@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:#cfdbf2;
+    background-color: rgb(198, 226, 244);
     color:black;
     
 }
@@ -61,14 +61,6 @@ span{
     color: rgb(183, 46, 46);
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px; 
-}
-
 #menu1 {
     display: flex;
     flex-direction: row;
@@ -81,7 +73,7 @@ header {
 }
 
 #menu1 a {
-    background-color: rgb(161, 234, 241);
+    background-color:  rgb(134, 191, 237);
     padding: 5px;
     border-radius: 10px;
     text-decoration: none;
@@ -93,7 +85,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     padding-right: 30px;
-    background-color: lightblue;
+    background-color: #B7D7EA;
     height: 100px;
 }
 #quadrado2 {
@@ -101,7 +93,11 @@ header {
     flex-direction: column;
     padding: 30px;
     font-size: 20px;
-    background-color: #95C0DE;
+    background-color:  #8DBEDC;
+}
+
+#quadrado2 b {
+    color: rgb(22, 36, 195);
 }
 
 #quadrado3 {
@@ -115,7 +111,7 @@ footer {
     display: flex;
     align-items: flex-start;
     padding: 30px;
-    background-color:  rgb(143, 225, 248);
+    background-color:  rgb(177, 215, 238);
     padding-top: 20px;
     padding-left: 20px;
     justify-content: space-between;
@@ -135,7 +131,7 @@ footer {
     flex-direction: row;
     justify-content: end;
     align-items:flex-start;
-    background-color: cadetblue;
+    background-color:  rgb(110, 179, 219);
     height: 40px;
     width: 200px;
     border-radius: 12px;
@@ -145,8 +141,9 @@ footer {
 }
 
 #logo-header1 img {
-    width: 150px;
+    width: 170px;
     padding: 20px;
+    object-fit: cover;
 }
 
 #texto-header1 {

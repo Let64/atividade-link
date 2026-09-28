@@ -9,33 +9,20 @@ body {
     
 }
 
-
-
-
-#destaque {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    text-align: right;
-    padding-top: 50px;
-    padding-left: 150px;
-}
-
 #destaque a {
-    background-color: rgb(161, 234, 241);
+    background-color:  rgb(134, 191, 237);
     padding: 5px;
     border-radius: 8px;
     
 }
 
-
 header {
     display: flex;
     flex-direction: row;
-    background-color: lightblue;
+    background-color: #B7D7EA;
     justify-content: space-between;
     align-items: center;
-    height: 140px; 
+    height: 100px; 
     padding: 20px;
 }
 
@@ -48,6 +35,7 @@ header {
 #logo-header img {
     width: 200px;
     padding: 20px;
+    object-fit: cover;
 }
 
 #texto-header {
@@ -61,7 +49,6 @@ header {
 texto-header h1 {
     color:rgb(35, 35, 35);
 }
-
 
 #menu-header {
     display: flex;
@@ -93,17 +80,15 @@ texto-header h1 {
     padding: 20px;
 }
 
-
-
 #menu a {
-    background-color: rgb(161, 234, 241);
+    background-color: rgb(134, 191, 237);
     padding: 5px;
     border-radius: 8px;
     text-decoration: none;
 }
 
 span{
-    color: rgb(183, 46, 46);
+    color: rgb(22, 36, 195);
 }
 
 #hero h2 {
@@ -123,6 +108,7 @@ span{
     max-width: 700px;
     color:black;
 }
+
 #texto-hero {
     padding: 20px;
 }
@@ -135,20 +121,16 @@ span{
     font-size: 16px;
 }
 
+#texto-hero b {
+    color:  rgb(22, 36, 195);
+}
+
 #img-hero img {
     width: 300px;   
     padding: 20px;
     border-radius: 20px;
+    object-fit: cover;
 }
-
-
-#introducaocards {
-    display: flex;
-    flex-direction: column;
-    padding:30px;
-    margin-top: 20px;
-}
-
 
 #botao {
     display: flex;
@@ -162,8 +144,9 @@ span{
     padding: 5px;
     border-radius: 8px;
 }
+
 #hero {
-    background-color: #95C0DE;
+    background-color: #8DBEDC;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -181,17 +164,6 @@ a:visited {
 a:hover {
     color: red;
     font-weight: 500;
-}
-#texto {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-}
-
-#container1 {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
 }
 
 .frase1 {
@@ -225,27 +197,20 @@ a:hover {
 }
 
 #quadrado2 {
-    background-color: #6eadd9;
-}
-
-
-
-#container2 {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
+    background-color: #64A4CE;
 }
 
 #quadrado3 {
-    background-color: rgb(166, 205, 205);
+    background-color: #8DBEDC;
     height: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
+}
+
+#quadrado3 b {
+    color: rgb(22, 36, 195);
 }
 
 #introbotao2 {
@@ -257,7 +222,7 @@ a:hover {
 }
 
 .botao2 {
-    background-color: rgb(158, 193, 230);
+    background-color:rgb(110, 179, 219);
     border-radius: 10px;
     height: 40px;
     width: 250px;
@@ -269,7 +234,7 @@ a:hover {
 #quadrado4 {
     display: flex;
     align-items: center;
-    background-color: rgb(198, 245, 230);
+    background-color: rgb(177, 215, 238);
     height: 80px;
     padding-top: 20px;
     padding-left: 20px;
@@ -289,21 +254,13 @@ a:hover {
     flex-direction: row;
     justify-content: end;
     align-items:flex-start;
-    background-color: rgb(135, 194, 196);
+    background-color: rgb(110, 179, 219);
     height: 40px;
     width: 200px;
     border-radius: 12px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
-}
-
-
-#container img {
-    width: 200px;
-    height: 100px;
-    padding-top: 20px;
-    object-fit: contain;
 }
 
 #destaques {
