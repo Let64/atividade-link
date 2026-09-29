@@ -6,14 +6,16 @@
 
 body {
     color:black;
-    
+
 }
 
 #destaque a {
     background-color:  rgb(134, 191, 237);
     padding: 5px;
     border-radius: 8px;
-    
+    text-decoration: none;
+    color:black
+
 }
 
 header {
@@ -22,7 +24,7 @@ header {
     background-color: #B7D7EA;
     justify-content: space-between;
     align-items: center;
-    height: 100px; 
+    height: 100px;
     padding: 20px;
 }
 
@@ -85,6 +87,7 @@ texto-header h1 {
     padding: 5px;
     border-radius: 8px;
     text-decoration: none;
+    color:black;
 }
 
 span{
@@ -94,9 +97,6 @@ span{
 #hero h2 {
     font-size: 50px;
     font-weight: 900;
-    line-height: 0.9;
-    max-width:700px;
-    margin: 20px 0;
     font-family: 'Times New Roman', Times, serif;
     color:rgb(35, 35, 35);
 }
@@ -104,8 +104,6 @@ span{
 #hero p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    line-height: 1.2;
-    max-width: 700px;
     color:black;
 }
 
@@ -126,7 +124,7 @@ span{
 }
 
 #img-hero img {
-    width: 300px;   
+    width: 300px;
     padding: 20px;
     border-radius: 20px;
     object-fit: cover;
@@ -140,9 +138,10 @@ span{
 }
 
 #botao a {
-    background-color: azure;
+    background-color: rgb(110, 179, 219);
     padding: 5px;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 #hero {
@@ -150,20 +149,6 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-a:link {
-    color: black;
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: red;
-    font-weight: 500;
 }
 
 .frase1 {
@@ -218,7 +203,7 @@ a:hover {
     align-items: center;
     padding-top: 20px;
     text-align: center;
-    
+
 }
 
 .botao2 {
@@ -229,6 +214,11 @@ a:hover {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
+}
+
+.botao2 a {
+    text-decoration: none;
+    color:black;
 }
 
 #quadrado4 {
@@ -261,6 +251,11 @@ a:hover {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
+}
+
+.botao3 a {
+    text-decoration: none;
+    color: black;
 }
 
 #destaques {

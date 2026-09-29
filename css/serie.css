@@ -7,7 +7,7 @@
 body {
     background-color: rgb(198, 226, 244);
     color:black;
-    
+
 }
 
 #introducaocards {
@@ -77,6 +77,7 @@ span{
     padding: 5px;
     border-radius: 10px;
     text-decoration: none;
+    color:black;
 }
 
 header {
@@ -140,6 +141,11 @@ footer {
     padding-top: 10px;
 }
 
+.botao4 a {
+    text-decoration: none;
+    color:black;
+}
+
 #logo-header1 img {
     width: 170px;
     padding: 20px;
@@ -152,18 +158,4 @@ footer {
     justify-content: flex-start;
     align-items: center;
     font-size: 20px;
-}
-
-a:link {
-    color: black;
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: red;
-    font-weight: 500;
 }
